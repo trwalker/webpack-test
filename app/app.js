@@ -8,5 +8,5 @@ import login from './login';
 
 	console.log('app loaded, again, part duex!!!!');
 
-	login('admin', 'abc123');
+	login.authenticate('admin', 'abc123');
 })();
