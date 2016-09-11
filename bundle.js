@@ -49,18 +49,40 @@
 
 /***/ },
 /* 1 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	var _login = __webpack_require__(2);
+
+	var _login2 = _interopRequireDefault(_login);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	(function () {
+		var titleSpan = document.createElement('span');
+		titleSpan.innerHTML = 'Go Now, Now Go!!!!!!';
+
+		document.getElementById('app').appendChild(titleSpan);
+
+		console.log('app loaded, again, part duex!!!!');
+
+		(0, _login2.default)('admin', 'abc123');
+	})();
+
+/***/ },
+/* 2 */
 /***/ function(module, exports) {
 
-	import login from './login';
+	'use strict';
 
-	let titleSpan = document.createElement('span');
-	titleSpan.innerHTML = 'Go Now, Now Go!!!!!!';
+	var login = function login(username, password) {
+		if (username !== 'admin' || password !== 'abc123') {
+			console.log('incorrect login, foo');
+		}
+	};
 
-	document.getElementById('app').appendChild(titleSpan);
-
-	console.log('app loaded, again, part duex!!!!');
-
-	login('admin', 'dunno');
+	module.exports = login;
 
 /***/ }
 /******/ ]);
