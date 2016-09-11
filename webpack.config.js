@@ -1,7 +1,7 @@
 var config = {
-	entry: ['./app/index.js'],
+	entry: ['./app/app.js'],
 	output: {
-		filename: 'app.js'
+		filename: 'index.js'
 	},
 	
 	module: {
