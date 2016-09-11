@@ -4,7 +4,7 @@
   "description": "Test app using webpack",
   "main": "app.js",
   "scripts": {
-    "start": "webpack --watch & http-server",
+    "start": "webpack -d --watch & http-server",
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-local": "npm install && npm install -g http-server",
     "build-dev": "webpack",

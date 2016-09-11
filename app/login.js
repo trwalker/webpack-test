@@ -14,4 +14,4 @@ class Login {
 
 let login = new Login();
 
-module.exports = login;
+export { login };

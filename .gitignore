@@ -38,3 +38,6 @@ jspm_packages
 
 # Bundled application built by webpack
 index.js
+
+# Souce Maps
+*.map

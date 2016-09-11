@@ -1,4 +1,4 @@
-import login from './login';
+import {login} from './login';
 
 (function() {
 	let titleSpan = document.createElement('span');
