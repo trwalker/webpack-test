@@ -1,7 +1,8 @@
 import {login} from './login';
+import css from './app.css';
 
 (function() {
-	let titleSpan = document.createElement('span');
+	let titleSpan = document.createElement('h1');
 	titleSpan.innerHTML = 'Go Now, Now Go!!!!!!';
 
 	document.getElementById('app').appendChild(titleSpan);
